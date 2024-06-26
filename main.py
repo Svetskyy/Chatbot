@@ -30,6 +30,7 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
 
 # Main Script
 def chatbot():
+    print("HelpBot: Good day! I am HelpBot. How can I assist you today?")
     file_path = os.path.abspath("C:/Users/maule/Downloads/AI Chatbot/knowledge_base.json")
     knowledge_base: dict = load_knowledge_base(file_path)
 
@@ -43,15 +44,15 @@ def chatbot():
 
         if best_match:
             answer: str = get_answer_for_question(best_match, knowledge_base)
-            print(f'Bot: {answer}')
+            print(f'HelpBot: {answer}')
         else:
-            print(f'Bot: I don\'t know the answer. Can you teach me?')
+            print(f'HelpBot: I don\'t know the answer. Can you teach me?')
             new_answer: str = input('Type the answer or "skip" to skip: ')
 
             if new_answer.lower() != "skip":
                 knowledge_base["questions"].append({"question": user_input, "answer": new_answer})
                 save_knowledge_base(file_path, knowledge_base)
-                print('Bot: Thank you! I learned a new response!')
+                print('HelpBot: Thank you! I learned a new response!')
 
 if __name__ == '__main__':
     chatbot()

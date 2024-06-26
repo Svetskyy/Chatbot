@@ -47,6 +47,10 @@
     {
       "question": "Hi there",
       "answer": "Hello"
+    },
+    {
+      "question": "Thanks!",
+      "answer": "You're welcome!"
     }
   ]
 }
