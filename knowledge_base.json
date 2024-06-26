@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Rome"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What is the capital of Germany?",
+      "answers": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Rome"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "hello",
+      "answer": "hello there!"
+    },
+    {
+      "question": "how are you?",
+      "answer": "I'm fine thank you! How about you?"
+    },
+    {
+      "question": "I'm good",
+      "answer": "That's good to hear!"
+    },
+    {
+      "question": "hey",
+      "answer": "Hello!"
+    },
+    {
+      "question": "hi",
+      "answer": "Hello"
+    },
+    {
+      "question": "Hi",
+      "answer": "Hello"
+    },
+    {
+      "question": "Hi there",
+      "answer": "Hello"
+    }
+  ]
+}
